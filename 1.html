@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShynDiary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="homepage" id="homepage">
+        <header>
+            <div class="nav-container">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#whyus">About</a></li>
+                        <li><a href="#">Diary</a></li>
+                        <!-- Updated Contacts link -->
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+                <div class="login-container">
+                    <span class="login-text" id="loginButton"><a href="login.html">Login</a></span>
+                    <div class="register-container">
+                        <span class="register-text">Register</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="main-content">
+            <div class="placement">
+                <h1>Insights from Your Words, Support for Your Mind</h1>
+                <div class="features-main">
+                    <div class="text-content">
+                        <button id="startDiary">Start your Diary</button>
+                        <div class="text-content">
+                            <p>
+                                With ShynDiary, caring for your mental health has never been easier. Our AI-based diary
+                                automatically tracks your mood and psychological state by analyzing your daily entries.
+                                Forget about overwhelming questionnaires and complicated assessments—just write about your
+                                feelings, and let the AI do the rest.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="wrapper-carousel">
+                        <div class="card">
+                            <h2>Card 1</h2>
+                            <p>Some Information or photo will be edited later</p>
+                        </div>
+                        <div class="card">
+                            <h2>Card 2</h2>
+                            <p>Some Information or photo will be edited later</p>
+                        </div>
+                        <div class="card">
+                            <h2>Card 3</h2>
+                            <p>Some Information or photo will be edited later</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id = "whyus" class="why-us">
+            <h2>Why us?</h2>
+            <div class="features">
+                <div class="feature">
+                    <img src="https://i.pinimg.com/736x/81/75/07/8175070ec7b94d9515fe8ba15b175bde.jpg" alt="Image 1"
+                        height="300px" width="300px">
+                    You can express your feelings through writing to the diary. AI analysis will help you to find support.
+                </div>
+                <div class="feature">Access a curated list of therapists and emergency contacts to ensure you get the help
+                    you need when you need it.</div>
+                <div class="feature">Benefit from a comprehensive approach that integrates community support and
+                    professional guidance into your daily routine.</div>
+            </div>
+        </section>
+
+        <!-- Contact section with an id added -->
+        <section id="contacts" class="contact-title">
+            <h1>Contacts</h1>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>ShynDiary</h3>
+                    <p>Contact us today to start experiencing the benefits of a truly supportive diary experience</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>Psychotherapy</li>
+                        <li>Mental Counseling</li>
+                        <li>Support Groups</li>
+                        <li>Case Management</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +14 5464 8272</li>
+                        <li><i class="fas fa-envelope"></i> ron@domain.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Lizzy Tower 192,Burn Swiss</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Term Of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+                <p>© 2024 @ShynDiary all right reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Login Page -->
+    <div class="login-page" id="login-page" style="display:none;">
+        <h2>We're Here for You—Reach Out for Individualized Support</h2>
+        <form>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+        <p>You don’t have an account? Then go to <a href="#" id="goToRegister">register page</a></p>
+    </div>
+
+    <!-- Registration Page -->
+    <div class="register-page" id="register-page" style="display:none;">
+        <h2>We're Here for You—Reach Out for Individualized Support</h2>
+        <form>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="Your first name">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" placeholder="Your last name">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="email@domain.com">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" placeholder="+21 228xxxx">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password">
+            <label for="confirmPassword">Confirm Your Password</label>
+            <input type="password" id="confirmPassword" placeholder="Confirm">
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
