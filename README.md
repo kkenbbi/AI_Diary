@@ -1,1 +1,1 @@
-![Home Page of ShynDiary](images/Homepage.jpg)
+![Homepage](images/Homepage.jpg)
