@@ -1,1 +1,1 @@
-![Home Page of ShynDiary](./AI_Diary/images/Homepage.jpg)
+![Home Page of ShynDiary](./images/Homepage.jpg)
